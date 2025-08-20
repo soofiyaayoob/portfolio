@@ -41,14 +41,9 @@ const Intro = () => {
   return (
     <section
       data-section="intro"
-      className="flex items-center box-border relative sm:py-30 py-5  max-w-full w-full"  style={{
-    backgroundImage: `url('/bg.webp')`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-  
-  }}
+      className="flex items-center box-border relative sm:py-30 py-5 max-w-full w-full"
     >
-      <div className="mx-auto px-4  max-w-full w-full">
+      <div className="mx-auto px-4 max-w-full w-full">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -58,24 +53,31 @@ const Intro = () => {
           <div className="max-w-full md:max-w-[60%]">
             <motion.div variants={itemVariants}>
               <div className="flex items-center mb-8">
-                <div className="sm:w-12 w-5 h-0.5 bg-yellow-500 mr-4"></div>
-                <span className="sm:text-lg">Hello World</span>
+                <div
+                  className="sm:w-12 w-5 h-0.5 mr-4"
+                  style={{ backgroundColor: "#3A592C" }}
+                ></div>
+                <span style={{ color: "#D3D9A7" }} className="sm:text-lg">
+                  Hello World
+                </span>
               </div>
             </motion.div>
 
             <motion.h1
               variants={itemVariants}
               className="text-xl md:text-4xl font-bold mb-6 tracking-wide"
+              style={{ color: "#D3D9A7" }}
             >
               I’m SOOFIYA — a dedicated{" "}
-              <span className="text-yellow-500">Full Stack Web Developer</span>{" "}
+              <span style={{ color: "#D9C99A" }}>Full Stack Web Developer</span>{" "}
               delivering scalable, efficient, and maintainable digital
               solutions.
             </motion.h1>
 
             <motion.p
               variants={itemVariants}
-              className="text-gray-300 max-w-xl leading-relaxed"
+              className="max-w-xl leading-relaxed"
+              style={{ color: "#D3D9A7" }}
             >
               I transform ideas into high-quality web applications with clean,
               optimized code, intuitive interfaces, and excellent user
@@ -86,9 +88,9 @@ const Intro = () => {
           <motion.aside
             aria-label="Social media links"
             variants={containerVariants}
-            className="writing-vertical-rtl break-words max-w-full "
+            className="writing-vertical-rtl break-words max-w-full"
           >
-            <div className="md:space-y-5 space-x-5  justify-around">
+            <div className="md:space-y-5 space-x-5 justify-around">
               {socials.map(({ name, url }, index) => (
                 <motion.a
                   key={name}
@@ -96,7 +98,8 @@ const Intro = () => {
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-yellow-500 transition-colors duration-300 text-sm font-medium whitespace-nowrap tracking-widest"
+                  className="text-[#D3D9A7] transition-colors duration-300 text-sm font-medium whitespace-nowrap tracking-widest"
+                  whileHover={{ color: "#D9C99A" }}
                   custom={index}
                 >
                   {name}

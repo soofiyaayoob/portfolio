@@ -1,34 +1,20 @@
 @import "tailwindcss";
 
-
-  
 @layer base {
   html {
     scroll-behavior: smooth;
-
   }
-body {
-  @apply text-white overflow-x-hidden max-w-full box-border;
-
-  background:
-   
-    #000;
-
-
-
-
-
-  background-attachment: scroll;
-
-
-}
-
-}
-@layer components{
-  .main{
-    @apply sm:px-10 px-3 flex flex-col gap-3 relative max-w-full ;
+  body {
+    @apply overflow-x-hidden max-w-full box-border;
+    background-color: #162719;
+    background-attachment: scroll;
   }
-    @media (min-width: 768px) {
+}
+@layer components {
+  .main {
+    @apply sm:px-10 px-3 flex flex-col gap-3 relative max-w-full;
+  }
+  @media (min-width: 768px) {
     .writing-vertical-rtl {
       writing-mode: vertical-rl;
       transform: rotate(180deg);
