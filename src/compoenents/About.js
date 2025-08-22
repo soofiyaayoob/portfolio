@@ -39,7 +39,7 @@ function About() {
 
         <div className="relative flex flex-1 w-full h-[350px] items-center justify-center">
           <Image
-            src="/me.png"
+            src="/Iam.png"
             alt="Faathimath Soofiya"
             width={300}
             height={0}

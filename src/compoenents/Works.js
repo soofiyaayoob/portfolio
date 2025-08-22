@@ -17,14 +17,21 @@ export default function Works() {
     },
     {
       id: 2,
-      title: "UAE Supplier Brand ",
+      title: "UAE Supplier Brand",
       category: "Business Website (Next.js)",
       img: "/ppm.png",
       description:
-        "Developed a responsive business website for a UAE supplier brand using Next.js and Tailwind CSS. The site features a modern UI design, strong business branding, and is optimized for SEO to maximize online visibility. With fast-loading pages and smooth navigation, it delivers a professional digital presence tailored to the client’s needs.",
-      tags: ["Next.js", "Tailwind", "SEO", "Fastloading", "Business Branding"],
+        "Developed a responsive business website for a UAE supplier brand using Next.js and Tailwind CSS. The site features a modern UI, strong business branding, and is fully optimized for SEO to maximize online visibility. Fast-loading pages, smooth navigation, and Google Analytics integration allow effective monitoring of site performance, delivering a professional digital presence tailored to the client’s needs.",
+      tags: [
+        "Next.js",
+        "Tailwind CSS",
+        "SEO",
+        "Fast Loading",
+        "Business Branding",
+        "Google Analytics",
+      ],
       link: "https://www.ppmgeneraltrading.com/",
-      github: "#https://github.com/soofiyaayoob/business-website-ppm/",
+      github: "https://github.com/soofiyaayoob/business-website-ppm/",
     },
     {
       id: 3,
