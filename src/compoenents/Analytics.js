@@ -2,5 +2,5 @@
 import { GoogleAnalytics } from "nextjs-google-analytics";
 
 export default function Analytics() {
-  return <GoogleAnalytics trackPageViews gaMeasurementId={process.env.GA_ID} />;
+  return <GoogleAnalytics trackPageViews gaMeasurementId={process.env.NEXT_PUBLIC_GA_ID} />;
 }
