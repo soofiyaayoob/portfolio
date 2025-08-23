@@ -4,7 +4,7 @@ import SiteMetadata from "./metadata";
 import Analytics from "@/compoenents/Analytics";
 
 
-export const metadata= {SiteMetadata};
+export const metadata= SiteMetadata;
 
 export default function RootLayout({ children }) {
   return (
