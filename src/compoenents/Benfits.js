@@ -50,6 +50,7 @@ function Benefits() {
             width={150}
             height={150}
             className="mx-auto mb-4"
+            priority
           />
           <h3 className="text-xl font-semibold mb-2" >
             {b.title}

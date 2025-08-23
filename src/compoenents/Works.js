@@ -12,7 +12,7 @@ export default function Works() {
       description:
         "Developed a complete e-commerce platform for food delivery with support for multiple restaurants, user ordering, payments, and admin management. Production-ready e-commerce with payment integration, role-based admin panel, categories, products, orders, and analytics.",
       tags: ["Spring Boot", "Java", "Payment Integration", "Admin Panel"],
-      link: "#https://ecommerce-spring-boot-kfyz.onrender.com",
+      link: "#",
       github: "#https://github.com/soofiyaayoob/-ecommerce-Spring-Boot/",
     },
     {
@@ -52,7 +52,7 @@ export default function Works() {
       description:
         "A clean UI kit and marketing site built in React with thoughtful UX, spacing scale, and component library.",
       tags: ["React", "Design System", "UX", "ModernTool"],
-      link: "#https://web-demo-ashy.vercel.app/",
+      link: "https://web-demo-ashy.vercel.app/",
       github: "#https://github.com/soofiyaayoob/busines-web-demo",
     },
     {
@@ -63,7 +63,7 @@ export default function Works() {
       description:
         "The design focuses on modern layout, clear typography, and intuitive navigation. The site highlights key business information, product/service sections, and ensures a smooth user experience across devices. Emphasis on professional styling, consistent color palette, and easy-to-read content.",
       tags: ["HTML", "CSS", "Responsive Design"],
-      link: "#https://responsive-design-taupe.vercel.app/",
+      link: "https://responsive-design-taupe.vercel.app/",
       github: "https://github.com/soofiyaayoob/responsive-Design",
     },
     {
@@ -118,6 +118,7 @@ export default function Works() {
                   muted
                   playsInline
                   className="w-full h-full object-cover"
+                  preload="auto"
                 />
               ) : p.img ? (
                 <Image
@@ -126,6 +127,7 @@ export default function Works() {
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
+                  priority
                 />
               ) : (
                 <div className="w-full h-full bg-[#3A592C]/20 animate-pulse flex items-center justify-center">
