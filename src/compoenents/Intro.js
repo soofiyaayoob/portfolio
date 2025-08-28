@@ -2,10 +2,10 @@
 import { motion } from "framer-motion";
 
 const socials = [
-  { name: "github", url: "https://github.com/yourusername" },
-  { name: "LinkedIn", url: "https://linkedin.com/in/yourprofile" },
-  { name: "whatsapp", url: "https://wa.me/yourphonenumber" },
-  { name: "email", url: "mailto:your.email@example.com" },
+  { name: "github", url: "https://github.com?soofiyaayoob" },
+  { name: "LinkedIn", url: "https://linkedin.com/in/fathimath-soofiya" },
+  { name: "whatsapp", url: "https://wa.me/918891738115" },
+  { name: "email", url: "mailto:soofiyaayoob786@gmail.com" },
 ];
 
 const containerVariants = {

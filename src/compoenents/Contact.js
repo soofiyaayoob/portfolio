@@ -26,7 +26,7 @@ function Contact() {
 
       <div className="flex flex-col lg:flex-row gap-12 items-center justify-center">
         <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=soofiyasoof8@gmail.com&su=Connect%20from%20Website&body=Hello%20Soofiya,%0A%0AI%20saw%20your%20portfolio%20and%20I%20want%20to%20know%20more"
+          href="https://mailto:soofiyaayoob786@gmail.com"
           className="px-10 py-4 font-semibold rounded-lg shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl"
           style={{
             backgroundColor: "#D3D9A7",
