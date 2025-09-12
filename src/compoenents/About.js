@@ -28,7 +28,7 @@ function About() {
             succeed.
           </p>
           <a
-            href="/soofiyaDeveloper.pdf"
+            href="/FullStackDeveloperSoofiya.pdf"
             download
             className="inline-block font-semibold py-3 px-6 rounded-r-full shadow transition"
             style={{ backgroundColor: "#D9C99A", color: "#48643C" }}
