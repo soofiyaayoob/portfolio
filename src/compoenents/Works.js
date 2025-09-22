@@ -41,7 +41,7 @@ export default function Works() {
       description:
         "Movie search/browse experience with hover previews, watchlist, and responsive grid. Built in React.",
       tags: ["React", "TMDB API", "Hover Cards"],
-      link: "#https://movie-searching-in-react.vercel.app/",
+      link: "https://movie-searching-in-react.vercel.app/",
       github: "https://github.com/soofiyaayoob/movie-searching_InReact",
     },
     {
@@ -53,7 +53,7 @@ export default function Works() {
         "A clean UI kit and marketing site built in React with thoughtful UX, spacing scale, and component library.",
       tags: ["React", "Design System", "UX", "ModernTool"],
       link: "https://web-demo-ashy.vercel.app/",
-      github: "#https://github.com/soofiyaayoob/busines-web-demo",
+      github: "https://github.com/soofiyaayoob/busines-web-demo",
     },
     {
       id: 5,
@@ -74,8 +74,8 @@ export default function Works() {
       description:
         "A PHP based blog managment system with role-based access control.the project implements CRUD operations,allowing author to create and manage thier posts,subscribers to view posts and do thier comments about the post and admins to manage categories and oversee users",
       tags: ["PHP", "MYSQL", "CRUD", "Admin dashboard"],
-      link: "#",
-      github: "#https://github.com/soofiyaayoob/Blog-managment-In-PHP",
+      // link: "",
+      github: "https://github.com/soofiyaayoob/Blog-managment-In-PHP",
     },
     {
       id: 7,
@@ -84,8 +84,8 @@ export default function Works() {
       img: "",
       description: "Coming soon",
       tags: ["WordPress"],
-      link: "#",
-      github: "#",
+      // link: "",
+      // github: "",
     },
   ];
 
