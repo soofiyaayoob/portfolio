@@ -70,7 +70,7 @@ export default function Works() {
       id: 6,
       title: "Blog Managing System",
       category: "Full-Stack (PHP + Mysql)",
-      video: "/Blog.mp4",
+      video: "/blog.mp4",
       description:
         "A PHP based blog managment system with role-based access control.the project implements CRUD operations,allowing author to create and manage thier posts,subscribers to view posts and do thier comments about the post and admins to manage categories and oversee users",
       tags: ["PHP", "MYSQL", "CRUD", "Admin dashboard"],
