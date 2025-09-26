@@ -12,7 +12,7 @@ export default function Works() {
       description:
         "Developed a complete e-commerce platform for food delivery with support for multiple restaurants, user ordering, payments, and admin management. Production-ready e-commerce with payment integration, role-based admin panel, categories, products, orders, and analytics.",
       tags: ["Spring Boot", "Java", "Payment Integration", "Admin Panel"],
-      link: "#",
+      // link: "#",
       github: "#https://github.com/soofiyaayoob/-ecommerce-Spring-Boot/",
     },
     {

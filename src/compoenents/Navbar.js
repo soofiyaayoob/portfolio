@@ -118,14 +118,14 @@ function Navbar() {
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div
-            className="lg:hidden fixed top-16 left-0 w-full border-b"
-            style={{ backgroundColor: "#D9C99A", borderColor: "#26401B" }}
+            className="lg:hidden absolute right-0 left-0 m-2.5 border-b z-100 rounded-b-xl box-border"
+            style={{ backgroundColor: "#D9C99A", borderColor: "#26401B" , maxWidth: "calc(100% - 1.25rem)",}}
             initial={{ y: "-100%" }}
             animate={{ y: 0 }}
             exit={{ y: "-100%" }}
             transition={{ duration: 0.3 }}
           >
-            <nav className="p-6 flex flex-col space-y-4">
+            <nav className="p-6 flex flex-col space-y-4 items-center ">
               {navItems.map((item) => (
                 <button
                   key={item.id}
